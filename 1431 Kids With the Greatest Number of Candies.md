@@ -1,7 +1,9 @@
 # 1431. Kids With the Greatest Number of Candies
 ## Find the maximize value in array first. Then, add extraCandies with each value in the array and compare it with maximize value we get before.
 ### Time complexity: O(n)
+#### n is length of candies array
 ### Space complexity: O(n)
+#### n is length of candies array
 ```
 class Solution {
     public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
