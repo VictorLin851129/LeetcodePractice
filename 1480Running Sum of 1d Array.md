@@ -1,6 +1,7 @@
 # 1480. Running Sum of 1d Array
 ## Add previous number in the array
 ### Time complexity: O(n)
+#### n is length of nums array
 ### Space complexity: O(1)
 ```
 class Solution {
