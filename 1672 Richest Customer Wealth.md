@@ -1,6 +1,8 @@
 # 1672. Richest Customer Wealth
 ## Use for loop to calculate each row elements
 ### Time complexity: O(m*n)
+#### m is length of first dimension of accounts array
+#### n is length of second dimension of accounts array
 ### Space complexity: O(1)
 ```
 class Solution {
