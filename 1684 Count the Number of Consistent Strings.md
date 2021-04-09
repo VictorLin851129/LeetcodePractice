@@ -1,6 +1,4 @@
 # 1684. Count the Number of Consistent Strings
-## 1. Follow the rule and do it step by step.
-## 2. The value in the middle will have more times to be picked , and both side have the same chances to be picked. Concept like pascal's triangle .
 ## First solution
 ```
 class Solution {
