@@ -1,0 +1,19 @@
+# 1475. Final Prices With a Special Discount in a Shop
+```
+class Solution {
+    public int[] finalPrices(int[] prices) {
+        for(int i = 0; i < prices.length - 1;i++) {
+			for(int j = i + 1; j < prices.length; j++) {
+				if(prices[i] >= prices[j]) {
+					prices[i] -= prices[j];
+					break;
+				}
+			}
+		}
+		return prices;
+    }
+}
+```
+### Time complexity: O(n ^ 2)
+#### Where n is length of prices
+### Space complexity: O(1)
